@@ -15,11 +15,7 @@
         android:textColor="@color/black"
         android:layout_gravity="center"
         android:textSize="50sp"/>
-<Button
-    android:id="@+id/my_button"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="My Button" />
+
 
     <Space
         android:layout_width="match_parent"
@@ -31,11 +27,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="80dp"
-        android:text="Click here"
+        android:text="MainActivity2"
         android:textColor="@color/black"/>
 
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
 
 
-
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="80dp"
+        android:text="MainActivity3"
+        android:textColor="@color/black"/>
 
 </LinearLayout>
